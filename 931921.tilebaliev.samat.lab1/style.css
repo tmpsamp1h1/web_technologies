@@ -1,18 +1,18 @@
 body {
      margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
      background-color: blue;
      color:white;
-     width: 40%;
+     width: 35%;
      height: 100%;
      margin: 0 auto;
 }
 
 header, footer
 {
-          
      width: 100%;
      text-align: center;
      color: white;
@@ -20,52 +20,57 @@ header, footer
      padding: 10px;
      font-size: 15px;
 }
+
 footer {
      font-style:normal;
 }
 
+header{
+     letter-spacing: 3px;
+}
+
 #content h1 {
-     font-size: 28px;
+     font-size: 38px;
      margin: 0px;
      padding: 25px;
 }
 
 #content .rectangle {
-     height: 80px;
-     width: 85px;
-     border-width: 4px;
-     border-top-left-radius: 15px;
-     border-bottom-right-radius: 15px;
+     height: 100px;
+     width: 100px;
+     border-width: 5px;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
      border-style: solid;
      border-color: white;
      float: left;
-     margin: 0px 25px;
+     margin: 0px 25px 27px 25px;
 }
 
 #content p {
-     font-size: 19px;
+     font-size: 20px;
      margin: 0px 25px;
 }
 
 #content .link {
-     margin:5px;
+     margin: 5px;
      text-align: center;
-     font-size: 17px;
+     font-size: 19px;
 }
 
 #lists .digital h2{
-     margin-bottom: 0px;
-     margin-left:25px;
-     margin-top:0px;
-
-     font-size: 25px;
+     font-size: 27px;
      word-spacing: 5px;
-     margin: 15px 0 0 25px;
+     margin: 10px 0 0 25px;
 }
 
 #lists .digital .values{
      font-size: 17px;
-     margin: 0 0 10px 28px
+     margin: 0 0 10px 28px;
+}
+
+#lists .digital li {
+     margin-top: 7px;
 }
 
 #lists .visual_styles{
@@ -73,7 +78,7 @@ footer {
 }
 
 #lists .visual_styles h3 {
-     font-size: 19px;
+     font-size: 23px;
      word-spacing: 5px;
      margin: 0 0 0 25px;
 }
@@ -84,10 +89,10 @@ footer {
      margin: 0;
      padding: 0 0 5px 25px;
 }
+
 #lists .visual_styles li {
      margin-top:15px;
 }
-
 
 #digital_table table {
      border-collapse: separate;
@@ -96,12 +101,12 @@ footer {
      margin-left: auto;
      width: 25%;
      height: 140px;
-     border: 1px solid white;
+     border: 1px solid grey;
      
 }
 
 #digital_table td {
-     border: 2px solid white;
+     border: 1px solid grey;
      border-style: outset;
      text-align: center;
      vertical-align:bottom;
