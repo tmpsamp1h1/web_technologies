@@ -85,13 +85,13 @@ header{
 
 #lists .visual_styles .values {
      list-style: none;
-     font-size: 17px;
+     font-size: 19px;
      margin: 0;
      padding: 0 0 5px 25px;
 }
 
 #lists .visual_styles li {
-     margin-top:15px;
+     margin-top:17px;
 }
 
 #digital_table table {
@@ -116,4 +116,6 @@ header{
 #images .like {
      text-align: right;
      margin: 15px 25px 0 0;
+     padding: 0 0 15px 0;
 }
+
