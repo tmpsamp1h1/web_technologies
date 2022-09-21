@@ -1,0 +1,28 @@
+* {
+     margin: 0;
+}
+
+
+#first .content {
+    width: 500px;
+    margin: 20px auto;
+}
+
+#first p {
+    background-color: green;
+    color: white;
+    margin : 7px 7px;
+    font-size: 15px;
+}
+
+#second .content {
+    width: 600px;
+    margin: 20px auto;
+}
+
+#second p {
+    background-color: blue;
+    color: white;
+    padding: 45px;
+    font-size: 15px;
+}
