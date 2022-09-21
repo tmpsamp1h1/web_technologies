@@ -1,0 +1,15 @@
+* {
+     margin: 0;
+}
+
+main .content {
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 7px auto;
+}
+
+.content p {
+    background-color: blue;
+    color: white;
+}
