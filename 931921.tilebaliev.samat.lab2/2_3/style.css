@@ -3,13 +3,13 @@
 }
 
 main .content {
-    height: 400px;
     width: 600px;
-    display: block;
-    margin: 7px auto;
+    margin: 0 auto;
 }
 
 .content p {
     background-color: blue;
     color: white;
+    margin : 7px 7px;
+    font-weight: normal;
 }
