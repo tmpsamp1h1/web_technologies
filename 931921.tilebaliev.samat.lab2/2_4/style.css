@@ -1,0 +1,20 @@
+* {
+     margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .content {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content p {
+    background-color: blue;
+    color: white;
+    margin : 7px 7px;
+    font-weight: normal;
+}
