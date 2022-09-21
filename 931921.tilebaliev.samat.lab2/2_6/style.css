@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+#first .content {
+    width: 480px;
+    margin: 20px auto;
+}
+
+#first p {
+    color: black;
+    font-size: 15px;
+}
+
+#second .content {
+    width: 460px;
+    margin: 20px auto;
+    border: 10px solid blue;
+}
+
+#second p {
+    color: black;
+    padding: 50px;
+    font-size: 15px;
+}
