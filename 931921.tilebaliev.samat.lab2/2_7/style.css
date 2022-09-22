@@ -1,0 +1,55 @@
+
+
+p {
+    color : white;
+    margin : 0px;
+}
+
+div {
+    width: 170px;
+    height: 100px;
+    z-index: 1;
+}
+
+.violet_content {
+    background-color: blueviolet;
+    position: static;
+}
+
+.red_content {
+    background-color: darkred;
+    position:relative;
+}
+
+.sand_content {
+    background-color: peru;
+    position:relative;
+    left: 35px;
+    bottom: 35px;
+}
+
+.indianred_content {
+    position: relative;
+    background-color: indianred;
+    width: 680px;
+    height: 400px;
+}
+
+.indigo_content {
+    position: absolute;
+    background-color: indigo;
+    width: 330px;
+    height: 210px;
+    right:0px;
+    bottom: 60px;
+}
+
+.forrestgump_content {
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
