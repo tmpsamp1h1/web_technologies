@@ -1,0 +1,45 @@
+* {
+     margin:0px;
+}
+
+.blue_content {
+     height: auto;
+     width: 100%;
+     background-color:aquamarine;
+     border: 1px solid green;
+     margin: 7px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.bisque_content {
+     width: 600px;
+     height: 80px;
+     margin-right: 8px;
+     background-color: bisque;
+}
+
+.bisque_content #list {
+     padding-top: 10px;
+     padding-right: 15px;
+     text-align: left;
+}
+
+.text_content {
+     background-color: darkgrey;
+     margin-right: 8px;
+     width: 100%;
+}
+ 
+
+@media (max-width: 800px) {
+     .blue_content {
+       flex-direction: column;
+     }
+     .bisque_content{
+          width: 150px;
+     }
+     .text_content {
+          width: 400px;
+     }
+}
