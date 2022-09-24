@@ -1,0 +1,43 @@
+* {
+    margin:0px;
+}
+
+.blue_content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 250px;
+    background-color:aquamarine;
+}
+
+.bisque_content {
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+}
+
+.bisque_content #list {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.text_content {
+    background-color: darkgrey;
+    margin-left: 250px;
+}
+
+.main_section {
+    position: relative;
+    margin: 7px;
+}
+
+footer {
+    background-color:limegreen;
+    width: 100%;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
