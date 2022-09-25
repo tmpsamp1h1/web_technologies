@@ -1,0 +1,17 @@
+*{
+     margin: 0;
+}
+
+main div {
+     display: inline-block;
+     width: 200px;
+     height: 100px;
+     background-color: aquamarine;
+     margin: 20px;
+
+}
+
+footer {
+     background-color: bisque;
+     margin-bottom: 5px;
+}
