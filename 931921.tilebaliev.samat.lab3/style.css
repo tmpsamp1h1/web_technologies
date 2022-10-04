@@ -2,6 +2,15 @@
      margin: 0px;
 }
 
+main .content {
+     width: 600px;
+     margin: 0 auto;
+}
+
+main .content #text {
+     text-align: center;
+}
+
 header {
      background-color: green;
      height: 27px;
