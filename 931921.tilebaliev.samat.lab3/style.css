@@ -2,13 +2,26 @@
      margin: 0px;
 }
 
-main .content {
-     width: 600px;
-     margin: 0 auto;
+main {
+     display: flex;
+     justify-content: center;
 }
 
-main .content #text {
-     text-align: center;
+main .content {
+     width: 500px;
+}
+
+main .content #text{
+     text-align: justify;
+     margin: 40px;
+}
+
+main nav {
+     color:white;
+}
+
+main nav li {
+     list-style: none;
 }
 
 header {
@@ -26,4 +39,5 @@ footer {
 header, footer .content {
      color: white;
      text-align: center;
+     padding: 5px;
 }
