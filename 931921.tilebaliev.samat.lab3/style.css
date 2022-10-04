@@ -11,17 +11,27 @@ main .content {
      width: 500px;
 }
 
-main .content #text{
+main .content #text {
      text-align: justify;
-     margin: 40px;
+     margin: 25px;
 }
 
 main nav {
-     color:white;
+     background-color: red;
+}
+
+main nav ul {
+     margin-top: 10px;
+     margin-right: 20px;
 }
 
 main nav li {
+     margin-top: 5px;
      list-style: none;
+}
+
+main nav li a {
+     color: white;
 }
 
 header {
@@ -39,5 +49,6 @@ footer {
 header, footer .content {
      color: white;
      text-align: center;
-     padding: 5px;
+     padding: 3px;
+     font-size: 15px;
 }
