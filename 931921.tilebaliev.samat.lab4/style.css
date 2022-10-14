@@ -21,8 +21,11 @@ body {
 
 main {
      display: flex;
-     flex-direction: row;
+     justify-content: center;
      padding: 15px;
+     min-height: calc(100vh - 90px);
+     position: relative;
+     align-items: flex-start;
      margin: 0 23%;
 }
 
@@ -55,36 +58,60 @@ main ::selection {
 }
 
 main .content .post {
-     padding: 20px 15px;
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
      background-color: white;
      margin: 0 15px 15px 15px;
-     border: solid 1px #e1e5eb;
-     max-width: 70%;
-     padding: 17px;
+     max-width: 100%;
      border-radius: 10px;
+     padding: 0px;
+}
+
+main .content .post p {
+     padding: 15px 15px 5px 15px;
 }
 
 main img {
+     padding: 15px 15px;
      max-height: 100%;
      max-width: 100%;
 }
 
 main .content hr {
      border: solid 2px #e1e5eb;
-     margin-top:  5px;
-     margin-bottom: 5px;
+     margin-left: 15px;
+     margin-right: 15px;
+}
+
+main .content #post3 h4 {
+     margin: 10px 10px 5px 15px;
+}
+main .content #post3 p {
+     padding-top: 5px;
+}
+
+main .content #h_line {
+     border: solid 2px #e1e5eb;
+     margin:0px;
 }
 
 main .content .footer_post {
      display: flex;
+     padding: 10px 15px 10px 15px;
      justify-content: space-between;
 }
 
 aside {
-     min-width: 17%;
+     margin-left: 120px;
+     flex-direction: column;
+     gap:15px;
+     position: sticky;
+     top: 0px;
 }
 
 aside #box1, #box2 {
+     width: 125px;
      margin-bottom: 15px;
      border-radius: 5px;
      background-color: white;
@@ -105,10 +132,46 @@ footer {
      width: 100%;
      min-height: 30px;
      background-color: white;
+     margin-top: 15px;
 }
 footer p {
      font-size: 19px;
      padding: 5px;
 }
-     
 
+
+@media (max-width: 1400px) {
+     aside {
+          margin:0px;
+     }
+     aside #box1, #box2 {
+       display: none !important;
+     }
+     main {
+        justify-content: space-around;
+     }
+}
+
+
+ @media (max-width: 900px) {
+     nav {
+          flex-direction: row;
+     }
+     main {
+     flex-direction: column;
+     }
+     li{
+          white-space: nowrap;
+          max-width: 720px !important;
+     }
+     ul{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 20px;
+     }
+     .content {
+          margin: 0 auto;
+          margin-top: 20px;
+     }
+ }
