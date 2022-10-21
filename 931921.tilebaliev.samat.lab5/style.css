@@ -1,0 +1,55 @@
+*
+{
+	margin: 0px;
+	font-family: Arial;
+}
+
+.newsBlock
+{
+	background: powderBlue;
+	margin-left: auto;
+	margin-right: auto;
+	width: 870px;
+	border-bottom:2px solid black;
+	padding: 15px 20px 20px 20px;
+}
+
+.newsBlock:hover
+{
+    background:rgb(247, 34, 77);
+}
+
+.newsBlock h2
+{
+	margin-bottom: 7px;
+}
+
+.newsBlock button
+{	
+	color: white;
+	border: 0px;
+	padding: 8px 10px 8px 10px;
+	margin-top: 15px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
+	background: linear-gradient(to bottom, #08b70d 20%, #009405 100%);
+}
+
+#popup
+{
+	position: fixed;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 505px;
+	padding: 15px;   
+	padding-top: 0px;
+    	background-color:yellowgreen;  
+}
+
+#popup h1
+{
+	text-align: center;
+	margin: 25px;
+}
