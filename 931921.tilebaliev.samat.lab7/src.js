@@ -7,12 +7,13 @@ const widthWindow = window.innerWidth - 2 * document.getElementsByClassName('mai
 const minSize = Math.min(widthWindow, heightWindow) / 50;
 const maxSize = Math.min(widthWindow, heightWindow) / 4;
 
+let selectedElem = document.body;
+
 function randPx(min, max) {
 	return String(Math.floor(Math.random() * (max - min + 1) + min)) + 'px';
 }
 
 function clickEvent() {
-	let selectedElem = document.body;
 	if (selectedElem == this) {
 		document.body.removeChild(this);
 		return;
