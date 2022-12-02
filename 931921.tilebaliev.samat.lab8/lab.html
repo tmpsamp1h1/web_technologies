@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 8</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="tableBlock">
+            <div class="tableElem" id="0">
+                <input type="text">
+                <input type="number">
+                <button onclick="toUpElem(this.value.replace(' up', ''))" value="0 up">↑</button>
+                <button onclick="toDownElem(this.value.replace(' down', ''))" value="0 down">↓</button>
+                <button onclick="deleteElem(this.value.replace(' del', ''))" value="0 del">x</button>
+            </div>
+        </div>
+        <div class="buttonBlock">
+            <button onclick="generateNewElem()">Добавить элемент</button><br>
+            <button onclick="saveResult()">Сохранить</button>
+        </div>
+        <div class="jsonBlock">
+        </div>
+		<script src="src.js"></script>
+    </body>
+</html>
