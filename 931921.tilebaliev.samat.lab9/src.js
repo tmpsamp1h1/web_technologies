@@ -5,7 +5,7 @@ function equal() {
 }
 
 function clear_() {
-    document.querySelector(".input").valuse = "";
+    document.querySelector(".input").value = "";
 }
 
 function digit(value) {
