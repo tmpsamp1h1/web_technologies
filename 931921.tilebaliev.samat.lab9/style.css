@@ -1,0 +1,37 @@
+* {
+    font-size: 25px;
+}
+
+main {
+    border: 4px solid #61a7d6;
+    width: 300px;
+    height: 303px;
+    padding: 9px;
+    margin: 9px;
+}
+
+.input {
+    margin-left: 9px;
+    width: 275px;
+    height: 45px;
+    margin-top: 10px;
+    text-align: end;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    border-spacing: 6px;
+    margin-left: 2px;
+}
+
+.equal {
+    height: 108px;
+}
+
+.null {
+    width: 108px;
+}
