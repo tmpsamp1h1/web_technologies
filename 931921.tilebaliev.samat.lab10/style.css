@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+.on {
+    width: 75px;
+    height: 75px;
+    border-bottom: 600px solid yellow;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    opacity: 0.5;
+    margin-left: 28%;
+    margin-top: -2%;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+.start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.start:hover {
+    transform: translateY(-5%);
+}
+
+.back {
+    width: 1600px;
+    height: 800px;
+    position: absolute;
+}
+
+@keyframes opening {
+    from {
+        transform: translateY(-5%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.lamp {
+    width: 400px;
+    height: 300px;
+    margin-left: 42.75%;
+    position: absolute;
+    z-index: 2;
+}
+
+.switch {
+    margin-top: -5%;
+    margin-left: 37%;
+    position: absolute;
+    z-index: 0;
+}
+
+.wizard {
+    height: 225px;
+    margin-top: 26%;
+    margin-left: 40%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.hat {
+    width: 125px;
+    height: 125px;
+    margin-top: 31%;
+    margin-left: 60%;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.rabbit {
+    width: 65px;
+    height: 65px;
+    margin-top: 25%;
+    margin-left: 62%;
+    position: absolute;
+    display: none;
+}
+
+.bird {
+    width: 65px;
+    height: 65px;
+    margin-top: 33%;
+    margin-left: 62%;
+    position: absolute;
+    display: none;
+}
+
+.click {
+    width: 90px;
+    height: 90px;
+    margin-top: 33%;
+    margin-left: 61%;
+    position: absolute;
+    z-index: 3;
+}
