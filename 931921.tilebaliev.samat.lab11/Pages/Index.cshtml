@@ -1,10 +1,14 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Calc Service Demonstration</h1>
+<ul type="disc">
+    <li><a class="nav-link" asp-area="" asp-controller="CalcService" asp-action="PassUsingModel">Using Model Calc</a></li>
+    <li><a class="nav-link" asp-area="" asp-controller="CalcService" asp-action="PassUsingViewData">Using ViewData Calc</a></li>
+    <li><a class="nav-link" asp-area="" asp-controller="CalcService" asp-action="PassUsingViewBag">Using ViewBag Calc</a></li>
+    <li><a class="nav-link" asp-area="" asp-controller="CalcService" asp-action="AccessServiceDirectly">Using Service Injection Calc</a></li>
+</ul>
+

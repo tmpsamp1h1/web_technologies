@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/CalcService/AccessServiceDirectly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY1NlcnZpY2UvQWNjZXNzU2VydmljZURpcmVjdGx5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/CalcService/PassUsingModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY1NlcnZpY2UvUGFzc1VzaW5nTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/CalcService/PassUsingViewBag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY1NlcnZpY2UvUGFzc1VzaW5nVmlld0JhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/CalcService/PassUsingViewData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY1NlcnZpY2UvUGFzc1VzaW5nVmlld0RhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
