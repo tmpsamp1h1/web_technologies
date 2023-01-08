@@ -16603,11 +16603,6 @@
       "FilePath": "/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Views/CalcService/PassUsingViewBag.cshtml",
       "TargetPath": "Views\\CalcService\\PassUsingViewBag.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
