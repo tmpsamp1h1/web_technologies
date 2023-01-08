@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Views/CalcService/AccessServiceDirectly.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FsY1NlcnZpY2UvQWNjZXNzU2VydmljZURpcmVjdGx5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Views/CalcService/PassUsingViewData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FsY1NlcnZpY2UvUGFzc1VzaW5nVmlld0RhdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/sama/tsu/web_labs/web_technologies/931921.tilebaliev.samat.lab11/Pages/Shared/_Layout.cshtml]

@@ -3,12 +3,12 @@ using System.Diagnostics;
 
 public class CalcServiceController : Controller
 {
-     // private readonly ILogger<CalcServiceController> _logger;
+     private readonly ILogger<CalcServiceController> _logger;
 
-/*      public CalcServiceController(ILogger<CalcServiceController> logger)
+     public CalcServiceController(ILogger<CalcServiceController> logger)
      {
-          // _logger = logger;
-     } */
+          _logger = logger;
+     }
 
      public IActionResult PassUsingModel()
      {
