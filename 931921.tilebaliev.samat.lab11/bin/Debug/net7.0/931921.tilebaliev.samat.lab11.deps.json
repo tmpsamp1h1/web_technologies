@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "931921.tilebaliev.samat.lab11/1.0.0": {
+        "runtime": {
+          "931921.tilebaliev.samat.lab11.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "931921.tilebaliev.samat.lab11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

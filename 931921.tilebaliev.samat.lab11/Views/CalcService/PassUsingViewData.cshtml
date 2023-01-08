@@ -1,0 +1,23 @@
+@{
+    var calcModel = ViewData["CalcDataModel"] as CalcDataModel;
+}
+
+<h1>PassUsingViewData</h1>
+<div class="calculations">
+    <b>
+        Rand Value First: @calcModel.firstNum<br>
+        Rand Value Second: @calcModel.secondNum<br>
+    </b>
+
+    <b>Add :</b><br>
+    @calcModel.firstNum + @calcModel.secondNum = @calcModel.add<br>
+
+    <b>Sub :</b><br>
+    @calcModel.firstNum - @calcModel.secondNum = @calcModel.sub<br>
+
+    <b>Mult :</b><br>
+    @calcModel.firstNum * @calcModel.secondNum = @calcModel.mult<br>
+
+    <b>Div :</b><br>
+    @calcModel.firstNum / @calcModel.secondNum = @calcModel.div<br>
+</div>
